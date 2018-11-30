@@ -6,8 +6,12 @@
 
 		<title>reveal.js</title>
 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
+				
+
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +28,111 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section class="logo-section">
+					<div class="logo">
+						<h1 class="site-title">WordCamp Vienna</h1>
+						<p class="site-description">27. and 28.4.2019</p>
+						<p class="site-description">#WCVIE</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">WordCam Vienna 2019</h2>
+
+						<div class="slide-content">
+							<ul>
+								<li>April 27th and 28th, 2019</li>
+								<li>UNI Campus in the Altes AKH</li>
+								<li>Expecting 450 WordPress enthusiasts</li>
+								<li>Informal, community-organized event</li>
+								<li>2 or 3 tracks of WordPress focused learning</li>
+								<li>More than 20 great speakers</li>
+								<li>Contributor day</li>
+							</ul>
+
+							<p>There are many ways for you to get involved!</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">Call for speakers</h2>
+
+						<div class="slide-content">
+							<p>The game is very simple:<br /><em>We give you a stage and you rock it!</em></p>
+
+							<ul>
+								<li>Great stories about and around WordPress</li>
+								<li>25-minute sessions with 10 minutes for Q&A</li>
+								<li>Open for presentations in English and German.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">Call for sponsors</h2>
+						
+						<div class="slide-content">
+							<p>Show your support for the WordPress project<br />while contributing to the growth of our local community</p>
+
+							<ul>
+								<li>4 different sponsor packages available for every need</li>
+								<li>Exhibition possibility at the event</li>
+								<li>450 WordPress fans as target audience</li>
+								<li>Good visibility for your company online and offline</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">Call for volunteers</h2>
+						
+						<div class="slide-content">
+							<ul>
+								<li>Be the key to our success and accessibility..</li>
+								<li>Speak with attendees from all over the world.</li>
+								<li>Help out with speakers and organisers.</li>
+								<li>No previous experience needed.</li>
+								<li>Pause your duties to see any talks you want.</li>
+								<li>All volunteers get a free tiket.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">Get your ticket</h2>
+						
+						<div class="slide-content">
+							<ul>
+								<li>WordCamp tickets covers the conference and the contributor day.</li>
+								<li>Access to all sessions, lunch, coffee, and after party included.</li>
+								<li>You get an exclusive t-shirt, stickers, and other great swag.</li>
+								<li>Child-care is offered for free.</li>
+							</ul>
+
+							<p>Get your WordCamp Vienna ticket now!</p>
+							<p>Price: <strong>only €20</strong>!</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="section-padding">
+						<h2 class="slide-title">#WCVIE</h2>
+						
+						<div class="big-image-text" style="background-image: url(https://2019.vienna.wordcamp.org/files/2018/11/wordcamp-vienna-2018-attendees.jpg)">
+							<p>Thank you for supporting<br />WordCamp Vienna 2019!</p>
+						</div>
+					</div>
+				</section>
 			</div>
 		</div>
 
@@ -37,6 +144,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				// width: 1020,
+				// height: 720,
+				// margin: 0.2,
+				transition: 'slide',
+				history: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
